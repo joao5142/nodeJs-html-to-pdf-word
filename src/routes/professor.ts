@@ -6,7 +6,7 @@ import WordController from "../controllers/WordController";
 
 router.post("/avaliacao/pdf", (req: any, res: any) => {
   /*
-  #swagger.description = 'Rota que converter uma string html em pdf'
+  #swagger.description = 'Rota que converte uma string html em pdf'
   */
   /*
   #swagger.parameters['html'] = {
@@ -29,7 +29,7 @@ router.post("/avaliacao/pdf", (req: any, res: any) => {
 
 router.post("/avaliacao/word", (req: any, res: any) => {
   /*
-  #swagger.description = 'Rota que converter uma string html em word'
+  #swagger.description = 'Rota que converte uma string html em word'
   */
   /*
   #swagger.parameters['html'] = {
