@@ -10,7 +10,7 @@ router.post("/avaliacao/pdf", (req: any, res: any) => {
   */
   /*
   #swagger.parameters['html'] = {
-	description: 'Recebe um código de um html em uma string no corpo da requisição e converte para pdf.',
+	description: 'Recebe um código de um html em uma string no corpo da requisição e converte para pdf(blob).',
     type: 'string',
     required: true,
     in: 'body',
@@ -33,7 +33,7 @@ router.post("/avaliacao/word", (req: any, res: any) => {
   */
   /*
   #swagger.parameters['html'] = {
-	description: 'Recebe um código de um html em uma string no corpo da requisição e converte para word.',
+	description: 'Recebe um código de um html em uma string no corpo da requisição e converte para word(blob).',
     type: 'string',
     required: true,
     in: 'body',

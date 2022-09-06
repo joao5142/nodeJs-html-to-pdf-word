@@ -13,14 +13,14 @@
   "paths": {
     "/professor/avaliacao/pdf": {
       "post": {
-        "description": "Rota que converter uma string html em pdf",
+        "description": "Rota que converte uma string html em pdf",
         "produces": [
           "application/octet-stream"
         ],
         "parameters": [
           {
             "name": "html",
-            "description": "Recebe um código de um html em uma string no corpo da requisição e converte para pdf.",
+            "description": "Recebe um código de um html em uma string no corpo da requisição e converte para pdf(blob).",
             "required": true,
             "in": "body",
             "schema": {
@@ -38,14 +38,14 @@
     },
     "/professor/avaliacao/word": {
       "post": {
-        "description": "Rota que converter uma string html em word",
+        "description": "Rota que converte uma string html em word",
         "produces": [
           "application/octet-stream"
         ],
         "parameters": [
           {
             "name": "html",
-            "description": "Recebe um código de um html em uma string no corpo da requisição e converte para word.",
+            "description": "Recebe um código de um html em uma string no corpo da requisição e converte para word(blob).",
             "required": true,
             "in": "body",
             "schema": {
