@@ -1,5 +1,5 @@
 <h1>API NodeJs</h1>
-<h4>API desenvolvida com node para conversão de um html em pdf e word</h4>
+<h4>API desenvolvida com node que é um wrapper de outras apis para para conversão de um html em pdf e word</h4>
 <h2>Tecnologias Utilizadas</h2>
 <div style="display: inline_block">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
