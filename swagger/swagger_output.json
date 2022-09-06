@@ -1,0 +1,65 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": ""
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/professor/avaliacao/pdf": {
+      "post": {
+        "description": "Rota que converter uma string html em pdf",
+        "produces": [
+          "application/octet-stream"
+        ],
+        "parameters": [
+          {
+            "name": "html",
+            "description": "Recebe um código de um html em uma string no corpo da requisição e converte para pdf.",
+            "required": true,
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/professor/avaliacao/word": {
+      "post": {
+        "description": "Rota que converter uma string html em word",
+        "produces": [
+          "application/octet-stream"
+        ],
+        "parameters": [
+          {
+            "name": "html",
+            "description": "Recebe um código de um html em uma string no corpo da requisição e converte para word.",
+            "required": true,
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
